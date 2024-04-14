@@ -172,15 +172,31 @@ body.fotos  a#fotos{
     color:white;
     font-weight: bold;
 }
+
 #duas-colunas .noticias{
+    padding: 10px;
     width: 555px;
+    margin-left: -100px;
 }
 #duas-colunas .noticias img{
+    padding:10px;
+    margin-left: -10px;
     width: 555px;
+}
+
+#duas-colunas .conteudo, .noticias{
+    background: url(imagens/fundo-caixa.png);
+}
+#duas-colunas #container{
+    width: 555px;
+}
+#duas-colunas #adicionais{
+    margin-left: -555px;
+    margin-top: 10px;
 }
 #uma-coluna #primario{
     width: 750px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 20px;
 }
 #uma-coluna .noticias img{
     width: 750px;
